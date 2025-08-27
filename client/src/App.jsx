@@ -5,6 +5,8 @@ import { NavBar } from './components/NavBar'
 
 import { Pointer } from './components/magicui/pointer'
 
+import { Analytics } from "@vercel/analytics/next"
+
 
 
 import Skills from './components/Skills'
@@ -43,6 +45,8 @@ function App() {
       <Footer/>
 
       <Dock/>
+
+      <Analytics/>
     </div>
   )
 }
