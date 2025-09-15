@@ -1,29 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { ProjectCard } from './ui/ProjectCard';
-import { collection, getDocs, query } from "firebase/firestore";
-import { db } from "../firebase";
+import projectData from '../data/projects.json'; // Importing JSON
 
 const Project = () => {
   const [projects, setProjects] = useState([]);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchProjects() {
-      try {
-        const q = query(collection(db, "Projects"));
-        const snapshot = await getDocs(q);
-        const projectData = snapshot.docs.map(doc => ({
-          id: doc.id,
-          ...doc.data(),
-        }));
-        setProjects(projectData);
-      } catch (error) {
-        console.error("Error fetching projects:", error);
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchProjects();
+    // Simulate fetching but from local JSON
+    setProjects(projectData);
   }, []);
 
   return (
@@ -32,8 +16,8 @@ const Project = () => {
         <span className='text-asset'>P</span>rojects
       </h1>
 
-      {loading ? (
-        <p className="text-white text-center sm:text-left">Loading projects...</p>
+      {projects.length === 0 ? (
+        <p className="text-white text-center sm:text-left">No projects available...</p>
       ) : (
         <>
           {/* Mobile: Horizontal carousel */}
@@ -53,7 +37,6 @@ const Project = () => {
           </div>
         </>
       )}
-
     </section>
   );
 };

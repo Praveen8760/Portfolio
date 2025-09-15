@@ -18,10 +18,10 @@ export function ProjectCard({ project }) {
         >
           {/* Image */}
           <div className="flex-1 mx-auto w-full">
-            <div className="relative mt-2 aspect-[3/4] w-full">
+            <div className="relative mt-2 aspect-[3/4] w-full rounded-2xl overflow-hidden">
               <img
                 loading="lazy"
-                className="absolute inset-0 h-full w-full rounded-2xl"
+                className="h-full w-full object-cover"
                 alt={project.title}
                 src={project.images?.[0]}
               />

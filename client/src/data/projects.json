@@ -1,0 +1,74 @@
+[
+  {
+  "id": 1,
+  "title": "VersionMind",
+  "description": "An AI-powered assistant that transforms any GitHub repository into a self-explaining knowledge base. Supports intelligent queries like feature timelines, PR review insights, self-updating AI docs, test coverage awareness, and multi-repo intelligence.",
+  "github": "https://github.com/Praveen8760/VersionMind",
+  "images": [
+    "https://i.postimg.cc/FH7HYSBY/Versioin-Mind.png"
+  ],
+  "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "LangChain",
+    "Chroma",
+    "GitHub API",
+    "Tailwind CSS"
+  ]
+},
+  {
+    "id": 2,
+    "title": "Time Complexity Analyzer",
+    "description": "Web-based system and VS Code extension to analyze time complexity of code snippets, supporting multiple languages with future graphical visualization.",
+    "github": "https://github.com/Praveen8760/Time-Complexity-Analyzer-",
+    "images": [
+      "https://i.postimg.cc/sx8Jssh1/time-complexity.png"
+    ],
+    "skills": [
+      "React",
+      "Express",
+      "Node.js",
+      "Monaco Editor",
+      "API",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "AgriOS Crop Intelligence",
+    "description": "AI-based crop disease detection system designed to help farmers identify crop diseases early and take corrective measures. The system uses machine learning to analyze images of crops and provide disease predictions, along with actionable recommendations.",
+    "github": "https://github.com/Praveen8760/crop-disease-prediction",
+    "images": [
+      "https://i.postimg.cc/vBksvgzK/1731863969273.jpg",
+      "https://i.postimg.cc/WzZPYNY1/1731863983733.jpg"
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "Python",
+      "TensorFlow",
+      "ExpressJs",
+      "NodeJs"
+    ]
+  },
+
+    {
+    "id": 4,
+    "title": "Online Auction System",
+    "description": "A real-time online auction platform developed during my HCL internship. The system allows users to participate in live auctions, place bids, and view real-time updates, ensuring a transparent and competitive bidding environment.",
+    "github": "https://github.com/Praveen8760/Online_Auction_Application",
+    "images": [
+      "https://i.postimg.cc/0QsdRppN/Auction-System.jpg"
+    ],
+    "skills": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.io",
+      "Tailwind CSS"
+    ]
+  }
+]
